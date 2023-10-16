@@ -8,6 +8,8 @@ class MeuMedicoAPiApplicationTests {
 
     @Test
     void contextLoads() {
+
+
     }
 
 }
