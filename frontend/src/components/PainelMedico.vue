@@ -1,6 +1,6 @@
 <script>
 
-import DashboardComp from './DoctorComponents/dashboardComp.vue'
+import DashboardComp from './DoctorComponents/DashboardComp.vue'
 import ConsultationsComp from './DoctorComponents/ConsultationsComp.vue'
 import PatientsComp from './DoctorComponents/PatientsComp.vue'
 import AppointmentsComp from './DoctorComponents/AppointmentsComp.vue'
@@ -256,19 +256,19 @@ import Login from './Login.vue'
       <DashboardComp />
     </div>
 
-    <div  v-else-if="seletedItem == 'ConsultationsItem'">
+    <div  v-else-if="seletedItem == 'consultationsItem'">
       <ConsultationsComp />
     </div>
 
-    <div  v-else-if="seletedItem == 'AppointmentsItem'">
+    <div  v-else-if="seletedItem == 'appointmentsItem'">
       <AppointmentsComp />
     </div>
 
-    <div  v-else-if="seletedItem == 'PatientsItem'">
+    <div  v-else-if="seletedItem == 'patientsItem'">
       <PatientsComp />
     </div>
 
-    <div  v-else-if="seletedItem == 'ReportsItem'">
+    <div  v-else-if="seletedItem == 'reportsItem'">
       <ReportsComp />
     </div>
 
