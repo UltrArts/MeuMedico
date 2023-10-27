@@ -2,8 +2,8 @@
 
 import DashboardComp from './DoctorComponents/dashboardComp.vue'
 import ConsultationsComp from './DoctorComponents/ConsultationsComp.vue'
-import PatientsComp from './DoctorComponents/PatientsComp.vue'
-import AppointmentsComp from './DoctorComponents/AppointmentsComp.vue'
+import PatientsComp from './DoctorComponents/patientsComp.vue'
+import AppointmentsComp from './DoctorComponents/appointmentsComp.vue'
 import ReportsComp from './DoctorComponents/ReportsComp.vue'
 import Login from './Login.vue'
 
@@ -42,7 +42,7 @@ import Login from './Login.vue'
   <div class="main-header">
     <div class="logo-header">
       <a href="index-2.html" class="logo">
-        Dashboard do Médico 
+        HCM
       </a>
       <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
