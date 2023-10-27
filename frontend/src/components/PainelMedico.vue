@@ -1,6 +1,6 @@
 <script>
 
-import DashboardComp from './DoctorComponents/DashboardComp.vue'
+import DashboardComp from './DoctorComponents/dashboardComp.vue'
 import ConsultationsComp from './DoctorComponents/ConsultationsComp.vue'
 import PatientsComp from './DoctorComponents/PatientsComp.vue'
 import AppointmentsComp from './DoctorComponents/AppointmentsComp.vue'
@@ -41,8 +41,8 @@ import Login from './Login.vue'
 
   <div class="main-header">
     <div class="logo-header">
-      <a href="index-2.html" class="logo">
-        Dashboard do Médico 
+      <a class="logo">
+         <i class="la la-refresh la-lg text-success"> </i> HCM 
       </a>
       <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
