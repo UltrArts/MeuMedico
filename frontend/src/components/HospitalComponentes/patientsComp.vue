@@ -17,8 +17,7 @@
 <div class="main-panel">
       <div class="content">
         <div class="container-fluid">
-          <h4 class="page-title">Consultas</h4>
-          <h4 class="page-title">Agendamentos</h4>
+          <h4 class="page-title">Pacientes</h4>
           <div class="row">
             <div class="col-md-3">
               <div class="card card-stats card-warning">
