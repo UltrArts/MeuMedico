@@ -1,6 +1,6 @@
 <script>
 
-import DashboardComp from './DoctorComponents/DashboardComp.vue'
+import DashboardComp from './DoctorComponents/dashboardComp.vue'
 import ConsultationsComp from './DoctorComponents/ConsultationsComp.vue'
 import PatientsComp from './DoctorComponents/PatientsComp.vue'
 import AppointmentsComp from './DoctorComponents/AppointmentsComp.vue'
@@ -41,9 +41,9 @@ import Login from './Login.vue'
 
   <div class="main-header">
     <div class="logo-header">
-      <a href="index-2.html" class="logo">
+      <a href="@ac" class="logo">
         Dashboard do Médico 
-      </a>
+      </a>  
       <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -77,7 +77,7 @@ import Login from './Login.vue'
           <li class="nav-item dropdown hidden-caret">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="la la-bell"></i>
-              <span class="notification">3</span>
+              <span class="notification">0</span>
             </a>
             <ul class="dropdown-menu notif-box" aria-labelledby="navbarDropdown">
               <li>
