@@ -5,12 +5,12 @@
       return {
         items: [
             { id: 20230001, name: 'Edson Da Cruz', age: 2, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 7, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
-            { id: 20230002, name: 'Edson Da Cruz', age: 2, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 21, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
-            { id: 20230003, name: 'Edson Da Cruz', age: 2, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 5, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
-            { id: 20230004, name: 'Edson Da Cruz', age: 2, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 7, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
-            { id: 20230005, name: 'Edson Da Cruz', age: 2, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 7, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
-            { id: 20230006, name: 'Edson Da Cruz', age: 2, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 7, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
-            { id: 20230007, name: 'Edson Da Cruz', age: 2, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 7, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
+            { id: 20230002, name: 'Edson Da Cruz', age: 12, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 21, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
+            { id: 20230003, name: 'Edson Da Cruz', age: 20, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 5, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
+            { id: 20230004, name: 'Edson Da Cruz', age: 16, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 7, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
+            { id: 20230005, name: 'Edson Da Cruz', age: 87, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 7, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
+            { id: 20230006, name: 'Edson Da Cruz', age: 26, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 7, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
+            { id: 20230007, name: 'Edson Da Cruz', age: 42, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 7, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
             { id: 20230008, name: 'Elísio Monjane', age: 2, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 7, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
             { id: 20230009, name: 'Elísio Monjane', age: 2, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 7, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
             { id: 20230010, name: 'Elísio Monjane', age: 2, gender: 'Masculino', address: 'Rua Vasco Firmino Q 12, casa 2341', contacts: '87903442, 824783443, 84781312', filiation: 'Maria de Rosário e Pedro Jamisse', processes: 7, appointments: 23, created_at: '23-10-23 12:45:39', updated_at:  '23-10-23 12:45:39'},
@@ -56,10 +56,10 @@
       max-height: 70vh; /* Defina a altura máxima desejada */
       overflow-y: auto;
       position: relative;
-    }
-    .table-fixed-header {
-      width: 100%;
-    }
+  }
+  .table-fixed-header {
+    width: 100%;
+  }
 
     .table-fixed-header thead {
       position: sticky;
@@ -70,7 +70,7 @@
 
     .selected {
       background-color: #3498db; /* Cor de fundo da linha selecionada */
-      color: #fff; /* Cor do texto na linha selecionada */
+      color: #ff0303; /* Cor do texto na linha selecionada */
       cursor: pointer; /* Transforma o cursor em uma mão para indicar que a linha é clicável */
     }
 
@@ -127,7 +127,7 @@
                       <td>{{ item.gender }}</td>
                       <td> {{ item.address }} </td>
                       <td> {{ item.contacts }} </td>
-                      <td> {{ item.filiation }}>2</td>
+                      <td> {{ item.filiation }} </td>
                       <td> {{ item.processes }} </td>
                       <td> {{ item.appointments }} </td>
                       <td>  {{ item.created_at }}</td>

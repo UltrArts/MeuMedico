@@ -1,7 +1,7 @@
 <script>
 
 import DashboardComp from './DoctorComponents/dashboardComp.vue'
-import ConsultationsComp from './DoctorComponents/ConsultationsComp.vue'
+import ConsultationsComp from './DoctorComponents/consultationsComp.vue'
 import PatientsComp from './DoctorComponents/patientsComp.vue'
 import AppointmentsComp from './DoctorComponents/appointmentsComp.vue'
 import ReportsComp from './DoctorComponents/ReportsComp.vue'
@@ -41,8 +41,8 @@ import Login from './Login.vue'
 
   <div class="main-header">
     <div class="logo-header">
-      <a href="index-2.html" class="logo">
-        HCM
+      <a href="javascript:void(0)" class="logo">
+        <i class="la la-refresh la-lg text-success"></i> HCM
       </a>
       <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -195,58 +195,39 @@ import Login from './Login.vue'
         </div>
         <ul class="nav">
           <li class="nav-item" :class="{active: itemStatus('dashboardItem')}">
-            <a  @click="newItem('dashboardItem')">
+            <a href="javascript:void(0)"  @click="newItem('dashboardItem')">
               <i class="la la-dashboard"></i>
               <p>Dashboard </p>
               <span class="badge badge-count">5</span>
             </a>
           </li>
           <li class="nav-item" :class="{active: itemStatus('patientsItem')}">
-            <a  @click="newItem('patientsItem')">
+            <a href="javascript:void(0)"  @click="newItem('patientsItem')">
               <i class="la la-table"></i>
               <p>Pacientes</p>
               <span class="badge badge-count">14</span>
             </a>
           </li>
           <li class="nav-item"  :class="{active: itemStatus('appointmentsItem')}">
-            <a @click="newItem('appointmentsItem')">
+            <a href="javascript:void(0)" @click="newItem('appointmentsItem')">
               <i class="la la-keyboard-o"></i>
               <p>Agendamentos</p>
               <span class="badge badge-count">50</span>
             </a>
           </li>
           <li class="nav-item" :class="{active: itemStatus('consultationsItem')}">
-            <a  @click="newItem('consultationsItem')">
+            <a href="javascript:void(0)"  @click="newItem('consultationsItem')">
               <i class="la la-th"></i>
               <p>Consultas</p>
               <span class="badge badge-count">6</span>
             </a>
           </li>
           <li class="nav-item" :class="{active: itemStatus('reportsItem')}">
-            <a  @click="newItem('reportsItem')">
+            <a href="javascript:void(0)"  @click="newItem('reportsItem')">
               <i class="la la-bell"></i>
               <p>Relatórios</p>
               <span class="badge badge-success">3</span>
             </a>
-          </li>
-          <li class="nav-item">
-            <a href="typography.html">
-              <i class="la la-font"></i>
-              <p>Typography</p>
-              <span class="badge badge-danger">25</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="icons.html">
-              <i class="la la-fonticons"></i>
-              <p>Icons</p>
-            </a>
-          </li>
-          <li class="nav-item update-pro">
-            <button  data-toggle="modal" data-target="#modalUpdate">
-              <i class="la la-hand-pointer-o"></i>
-              <p>Update To Pro</p>
-            </button>
           </li>
         </ul>
       </div>
