@@ -17,161 +17,59 @@
 <div class="main-panel">
       <div class="content">
         <div class="container-fluid">
-          <h4 class="page-title">Pacientes</h4>
-          <div class="row">
-            <div class="col-md-3">
-              <div class="card card-stats card-warning">
-                <div class="card-body ">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="icon-big text-center">
-                        <i class="la la-users"></i>
-                      </div>
-                    </div>
-                    <div class="col-7 d-flex align-items-center">
-                      <div class="numbers">
-                        <p class="card-category">Visitors</p>
-                        <h4 class="card-title">1,294</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <h4 class="page-title">Meus Pacientes</h4>
+          
+
+          
+          <div class="card ">
+            <div class="card-header ">
+              <div class="card-title col">Pacientes do HCM</div>
             </div>
-            <div class="col-md-3">
-              <div class="card card-stats card-success">
-                <div class="card-body ">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="icon-big text-center">
-                        <i class="la la-bar-chart"></i>
-                      </div>
-                    </div>
-                    <div class="col-7 d-flex align-items-center">
-                      <div class="numbers">
-                        <p class="card-category">Sales</p>
-                        <h4 class="card-title">$ 1,345</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card card-stats card-danger">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="icon-big text-center">
-                        <i class="la la-newspaper-o"></i>
-                      </div>
-                    </div>
-                    <div class="col-7 d-flex align-items-center">
-                      <div class="numbers">
-                        <p class="card-category">Subscribers</p>
-                        <h4 class="card-title">1303</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card card-stats card-primary">
-                <div class="card-body ">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="icon-big text-center">
-                        <i class="la la-check-circle"></i>
-                      </div>
-                    </div>
-                    <div class="col-7 d-flex align-items-center">
-                      <div class="numbers">
-                        <p class="card-category">Order</p>
-                        <h4 class="card-title">576</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-             <div class="col-md-3">
-              <div class="card card-stats">
-                <div class="card-body ">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="icon-big text-center icon-warning">
-                        <i class="la la-pie-chart text-warning"></i>
-                      </div>
-                    </div>
-                    <div class="col-7 d-flex align-items-center">
-                      <div class="numbers">
-                        <p class="card-category">Number</p>
-                        <h4 class="card-title">150GB</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card card-stats">
-                <div class="card-body ">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="icon-big text-center">
-                        <i class="la la-bar-chart text-success"></i>
-                      </div>
-                    </div>
-                    <div class="col-7 d-flex align-items-center">
-                      <div class="numbers">
-                        <p class="card-category">Revenue</p>
-                        <h4 class="card-title">$ 1,345</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card card-stats">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="icon-big text-center">
-                        <i class="la la-times-circle-o text-danger"></i>
-                      </div>
-                    </div>
-                    <div class="col-7 d-flex align-items-center">
-                      <div class="numbers">
-                        <p class="card-category">Errors</p>
-                        <h4 class="card-title">23</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card card-stats">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="icon-big text-center">
-                        <i class="la la-heart-o text-primary"></i>
-                      </div>
-                    </div>
-                    <div class="col-7 d-flex align-items-center">
-                      <div class="numbers">
-                        <p class="card-category">Followers</p>
-                        <h4 class="card-title">+45K</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div class="card-body ">
+              <div class="table-responsive">
+                <table class="table table-striped table-hover mt-3 table-head-bg-success">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Nome</th>
+                      <th scope="col">Idade</th>
+                      <th scope="col">Género</th>
+                      <th scope="col">Acções</th>
+                      <th scope="col">Endereço</th>
+                      <th scope="col">Contactos</th>
+                      <th scope="col">Pais</th>
+                      <th scope="col">Qtd Processos</th>
+                      <th scope="col">Consultas agendadas</th>
+                      <th scope="col">Data Criação</th>
+                      <th scope="col">Última actualização</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Mark</td>
+                      <td>49</td>
+                      <td>Masculino</td>
+                      <td>
+                        <button class="btn btn-info btn-round btn-xs ml-"> <i class="la la-file-text la-lg"></i> Detalhes</button>
+                        <button class="btn btn-primary btn-round btn-xs ml-1"> <i class="la la-pencil la-lg"></i> Consulta</button>
+                        <button class="btn btn-warning btn-round btn-xs ml-2">Relatório</button>
+                      </td>
+                      <td>dsfsdfsd </td>
+                      <td>fsdfsd</td>
+                      <td>@sdfbj jdf hf sdo</td>
+                      <td>2</td>
+                      <td> 3 </td>
+                      <td>fsdfsd</td>
+                      <td>@sdfbj jdf hf sdo</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
+
+
         </div>
       </div>
       
