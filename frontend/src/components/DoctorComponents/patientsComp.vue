@@ -46,40 +46,6 @@
 
 </script>
 
-<style scoped>
-    .no-wrap td,
-  .no-wrap th {
-    white-space: nowrap;
-  }
-
-  .table-max-height {
-      max-height: 70vh; /* Defina a altura máxima desejada */
-      overflow-y: auto;
-      position: relative;
-  }
-  .table-fixed-header {
-    width: 100%;
-  }
-
-    .table-fixed-header thead {
-      position: sticky;
-      top: 0;
-      background-color: #fff; /* Cor de fundo do cabeçalho */
-      z-index: 1; /* Garante que o cabeçalho esteja sobre o conteúdo */
-    }
-
-    .selected {
-      background-color: #3498db; /* Cor de fundo da linha selecionada */
-      color: #ff0303; /* Cor do texto na linha selecionada */
-      cursor: pointer; /* Transforma o cursor em uma mão para indicar que a linha é clicável */
-    }
-
-    .table-striped tbody tr:nth-child(odd).selected {
-      background-color: #3498db !important; /* Cor de fundo da linha selecionada em linhas ímpares */
-    }
-
-
-</style>
 
 
 
@@ -96,9 +62,11 @@
           <div class="card ">
             <div class="card-header ">
               <div class="card-title col">Pacientes do HCM</div>
-              <button class="btn btn-info btn-round btn-xs ml-"> <i class="la la-file-text la-lg"></i> Detalhes</button>
-              <button class="btn btn-primary btn-round btn-xs ml-1"> <i class="la la-pencil la-lg"></i> Consulta</button>
-              <button class="btn btn-danger btn-round btn-xs ml-5" @click="resetSelectedRow">Reset</button>
+              <div v-if="selectedRow > 0">
+                <button class="btn btn-info btn-round btn-xs ml-"> <i class="la la-file-text la-lg"></i> Detalhes</button>
+                <button class="btn btn-primary btn-round btn-xs ml-1"> <i class="la la-pencil la-lg"></i> Consulta</button>
+                <button class="btn btn-danger btn-round btn-xs ml-5" @click="resetSelectedRow">Reset</button>
+              </div>
             </div>
             <div class="card-body ">
               <div id="table-max-height" class="table-responsive table-max-height">
