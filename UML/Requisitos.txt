@@ -1,0 +1,22 @@
+========= Requisitos Funcionais ============
+
+# Cadastrar [Hospital, Médico, Paciente]
+# Permitir que o médico Faça uma consulta instantânea
+# Permitir que o médio Agende uma consulta;
+# Permitir que após finalizar consuta o médico agende outra com o mesmo paciente imediatamente;
+# Ao iniciar/Agendar uma consulta deve haver opçao para o médico adicionar um cliente
+# Cada Consulta está ligada a um médico, um hospital e um paciente
+# O Sistema deve permitir que o hospital/médico cadastre os pacientes
+# O sistema deve permitir que o médico escolha os dados do hospital que pretende trabalhar no momento;
+# O sistema deve permitir que o médico liste os agendamentos de consulta existentes ordenando pelas datas mais próximas às mais longiquas;
+# O sistema deve permitir que o médico cancele/adie/abrevie uma consulta agendada
+# O sistema deve permitir que o médico filtre as consultas pelo nome do cliente para assim acompanhar o seu quadro clínico
+# A consulta pode possuir os seguintes estados (pendente, cancelada, finalizada)
+# O sistema deve ser capaz de fazer um cálculo aproximado do tempo que o médico gasta para se deslocar de um hospital para o outro e evitar que ao ser criado um agendamento haja colisão de tempo, e pnotificar ao médico sempre que houver possibilidade de colisões
+
+# O Paciente deverá (opcionalmente) ter acesso ao sistema com o seu Dashboard partiular;
+# O paciente deve receber notificações no seu painel sobre suas consultas marcadas
+# Sempre que Houver alterações significativas (Alteração da data, Mudança de estado) nas suas consultas, o paciente deve ser notificado.
+
+# O Hospital Cadastra os Médicos
+# O Hospital é que pode associar/desassociar o médico a ele 
